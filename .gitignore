@@ -1,0 +1,21 @@
+# Politica deste repositorio:
+# ignorar tudo por padrao e liberar somente os scripts principais,
+# este .gitignore e o README solicitado.
+
+*
+
+!.gitignore
+!README.md
+!paralelismo.py
+!paralelismo2.py
+!benchmark_threads.py
+
+# Reforco explicito: configuracoes sensiveis e saidas de benchmark ficam locais.
+.env
+.env.*
+__pycache__/
+.matplotlib-cache/
+benchmark_results/
+benchmark_chatbot_results/
+benchmark_thread_results/
+Revista ENAP/
